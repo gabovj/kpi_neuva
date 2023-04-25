@@ -140,7 +140,7 @@ def is_ip_allowed(ip):
     return True
 
 
-if not position or not company_name or not company_sector or not name or not email:
+if not position or not company_name or not company_sector or not name or not email or not last_name:
     st.warning(
         "Por favor, completa todos los campos requeridos antes de generar KPIs.")
 else:
