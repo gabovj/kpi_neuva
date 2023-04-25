@@ -8,8 +8,8 @@ import os
 
 
 # Access the API key
-openai_api_key = st.secrets('OPENAI_API_KEY')
-ac_api_key = st.secrets('ACTIVE_CAMPAIGN_API')
+openai_api_key = st.secrets['OPENAI_API_KEY']
+ac_api_key = st.secrets['ACTIVE_CAMPAIGN_API']
 
 
 # Title of the app
